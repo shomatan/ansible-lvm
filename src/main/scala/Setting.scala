@@ -6,4 +6,5 @@ object Setting {
   val title = "title"
   val url = "url"
   val description = "description"
+  val permalink = "permalink"
 }
