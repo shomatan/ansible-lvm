@@ -7,4 +7,5 @@ object Setting {
   val url = "url"
   val description = "description"
   val permalink = "permalink"
+  val feedCount = "feed-count"
 }
