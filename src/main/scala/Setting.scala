@@ -1,6 +1,8 @@
 package me.shoma.ayumi.model
 
-case class Setting(key: String, value: Any)
+case class Setting(key: String, value: Any) {
+  def get[A]: A = value.asInstanceOf[A]
+}
 
 object Setting {
   val title = "title"
