@@ -12,7 +12,7 @@ case class Post(
                  createdAt: ZonedDateTime = ZonedDateTime.now(),
                  updatedAt: ZonedDateTime = ZonedDateTime.now(),
                  postedAt: ZonedDateTime,
-                 deletedAt: Option[Long]
+                 deletedAt: Option[Long] = None
                )
 
 
