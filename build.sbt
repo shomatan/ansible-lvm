@@ -1,1 +1,1 @@
-name := "ayumi-model"
+name := "ayumi-domain"
